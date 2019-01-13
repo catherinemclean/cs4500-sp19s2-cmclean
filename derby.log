@@ -1,10 +1,10 @@
 ----------------------------------------------------------------
-Sat Jan 12 22:07:54 EST 2019:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0168-452e-149d-00001595c410 
-on database directory memory:/Users/catherinemclean1/Documents/workspace-spring-tool-suite-4-4.1.0.RELEASE/cs4500-sp19s2-cmclean/testdb with class loader sun.misc.Launcher$AppClassLoader@659e0bfd 
+Sat Jan 12 23:35:08 EST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0168-457d-f24e-00000d5b6fd8 
+on database directory memory:/Users/catherinemclean1/Documents/workspace-spring-tool-suite-4-4.1.0.RELEASE/cs4500-sp19s2-cmclean/testdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@799f7e29 
 Loaded from file:/Users/catherinemclean1/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_60-b27
+java.runtime.version=11.0.1+13-LTS
 user.dir=/Users/catherinemclean1/Documents/workspace-spring-tool-suite-4-4.1.0.RELEASE/cs4500-sp19s2-cmclean
 os.name=Mac OS X
 os.arch=x86_64
