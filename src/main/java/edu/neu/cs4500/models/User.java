@@ -7,9 +7,10 @@ public class User {
 	private String password;
 	private String firstName;
 	private String lastName;
+	public User() {
+	}
 	
 	public User(Integer id, String username, String password, String firstName, String lastName) {
-		super();
 		this.id = id;
 		this.username = username;
 		this.password = password;

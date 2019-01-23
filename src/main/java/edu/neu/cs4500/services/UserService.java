@@ -11,7 +11,7 @@ import edu.neu.cs4500.models.User;
 
 @RestController
 public class UserService {
-	static List<User> users = new ArrayList();
+	static List<User> users = new ArrayList<User>();
 	static {
 		users.add(new User(123, "alice", "alice", "Alice", "Wonderland"));
 		users.add(new User(234, "bob", "bob", "Bob", "Marley"));
@@ -24,7 +24,9 @@ public class UserService {
 	public User findUserById(
 		@PathVariable("userId") Integer id) {
 		for(User user: users) {
-			if(user.getId() == id) {
+			if(user.getId().equals(id)) {
+				System.out.print(user.getId());
+				System.out.print(id);
 				return user;
 			}
 		}
